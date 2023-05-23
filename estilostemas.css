@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    text-decoration: none;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.margen-interno{
+    padding: 0 50px;
+}
+ .header{
+        background: url(./Image/546183.jpg);
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: rgba(0,0,0,.2);
+            display: flex;
+            flex-flow: row nowrap;
+            height: 90px;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,.5);
+        }
+            .logo{
+                flex:1 1 20%;
+                font-size: 45px;
+            }
+            .logo img{
+                width: 40%;
+            }
+            .logo a:hover{
+                color: #343434;
+            }
+                .logo a{
+                    color: #fff;
+                }
+            .nav{
+                flex:5 1 60%;
+            }
+                .nav a{
+                    color: #fff;
+                    font-size: 35px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+                .nav a:hover{
+                    color: #343434;
+                }
+            .social{
+                flex:1 1 20%;
+                display: flex;
+            }
+                .social a{
+                    font-size: 18px;
+                    color: #fff;
+                    padding: 0 5px;
+                }
+                .social a:hover{
+                    color: #343434;
+                }
+.texto-principal{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+h2{
+    font-size: 25px;
+}
